@@ -121,6 +121,7 @@ h2 {
 .btn-pass {
     background-color: #FF4D4D;
     color: white;
+    text-decoration: none;
 }
 
 .btn-like {
