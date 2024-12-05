@@ -163,6 +163,7 @@ h2 {
 
 .chat-button {
     background-color: #021B40;
+  width: fit-content;
     color: white;
     padding: 15px 30px;
     border: none;
