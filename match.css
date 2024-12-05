@@ -7,9 +7,12 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url(imagens/FUNDO.png);
     color: #333;
     text-align: center;
+}
+
+header{
+    background-color: #001846;
 }
 
 .header {
