@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
 }
+
 
 .header {
   background-color: #001846;
@@ -37,8 +43,13 @@ body {
   cursor: pointer;
 }
 
+.logo {
+  width: 100px;
+}
+
 .nav-link:hover img {
   filter: brightness(0) saturate(100%) invert(75%) sepia(83%) saturate(1550%) hue-rotate(170deg) brightness(99%) contrast(95%);
+
 }
 
 .nav-title {
@@ -66,7 +77,7 @@ body {
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -77,22 +88,20 @@ body {
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 .dropdown-content a {
   color: #666666;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-  font-weight: normal;
-  font-style: normal;
-}
+
+
 
 /* sessão que está todo o formulario */
 .section-formulario {
