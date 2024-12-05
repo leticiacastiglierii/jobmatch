@@ -127,6 +127,9 @@ h2 {
 .btn-like {
     background-color: #4CAF50;
     color: white;
+}
+
+.btn-like a {
     text-decoration: none;
 }
 
