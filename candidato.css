@@ -14,25 +14,45 @@ body {
     color: #333;
 }
 
-header{
-    background-color: #001846;
-}
-
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #021B40;
-    padding: 10px 0px;
-    color: white;
+  background-color: #001846;
+  /* Dark blue background */
+  padding: 10px 0;
 }
 
-.header h1 {
-    font-size: 24px;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
-  
-.logo{
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-item {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.logo {
   width: 100px;
+}
+
+.nav-link:hover img {
+  filter: brightness(0) saturate(100%) invert(75%) sepia(83%) saturate(1550%) hue-rotate(170deg) brightness(99%) contrast(95%);
+
 }
 
 .icon {
