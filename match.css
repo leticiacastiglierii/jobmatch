@@ -149,7 +149,7 @@ body {
 .match-icon {
     width: 50px;
     height: 50px;
-  color: ##001846;
+    filter: invert(8%) sepia(27%) saturate(7484%) hue-rotate(203deg) brightness(98%) contrast(110%);
 }
 
 h2 {
