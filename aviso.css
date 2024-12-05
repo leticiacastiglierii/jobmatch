@@ -10,6 +10,9 @@ body {
   background-color: #f2f2f2;
 }
 
+.aviso p {
+  margin-bottom: 24px;
+}
 
 .header {
   background-color: #001846;
