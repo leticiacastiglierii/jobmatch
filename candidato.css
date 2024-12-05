@@ -50,6 +50,9 @@ body {
   width: 100px;
 }
 
+.logo img {
+width: 40px}
+
 .nav-link:hover img {
   filter: brightness(0) saturate(100%) invert(75%) sepia(83%) saturate(1550%) hue-rotate(170deg) brightness(99%) contrast(95%);
 
@@ -85,7 +88,6 @@ body {
 }
 
 .dropdown-content a {
-  color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
