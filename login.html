@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Match - Cadastro</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Lado esquerdo com o logotipo -->
+        <div class="left-panel">
+            <a><img src="imagens/Logo.svg" alt="Logo Job Match" /></a>
+        </div>
+        <div class="form-container">
+            <div class="tabs">
+                <button class="tab active">Cadastre-se</button>
+                <a class="tab" href="loginentrar.html">Entrar</a>
+            </div>
+            <form>
+                <label for="nome"><i class="icon"></i> Nome completo</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="contato"><i class="icon"></i> Celular ou e-mail</label>
+                <input type="text" id="contato" name="contato" required>
+                
+                <select name="candidato" required>
+                    <option>Candidato ou empresa?</option>
+                    <option>Candidato</option>
+                    <option>Empresa</option>
+                </select>
+
+                <label for="senha"><i class="icon"></i> Senha</label>
+                <input type="password" id="senha" name="senha" required>
+
+                <label>Data de nascimento:</label>
+                <div class="date">
+                    <select name="dia" required>
+                        <option>Dia</option>
+                        <option>03</option>
+                        <option>07</option>
+                        <option>11</option>
+                        <option>16</option>
+                    </select>
+                    <select name="mes" required>
+                        <option>Mês</option>
+                        <option>Fevereiro</option>
+                        <option>Abril</option>
+                        <option>Julho</option>
+                        <option>Dezembro</option>
+
+                    </select>
+                    <select name="ano" required>
+                        <option>Ano</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+
+                    </select>
+                </div>
+
+                <label>Gênero:</label>
+                <div class="gender">
+                    <label><input type="radio" name="genero" value="F" required> F</label>
+                    <label><input type="radio" name="genero" value="M" required> M</label>
+                    <label><input type="radio" name="genero" value="Outro" required> Outro</label>
+                </div>
+
+                <button type="submit" class="submit-btn">CADASTRE-SE</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Match - Login</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Lado esquerdo com o logotipo -->
+        <div class="left-panel">
+         <a><img src="imagens/Logo.svg" alt="Logo Job Match" /></a>
+        </div>
+
+        <!-- Lado direito com o formulário -->
+        <div class="right-panel">
+            <div class="form-container">
+                <div class="tab">
+                    <a class="tab" href="login.html">Cadastre-se</a>
+                    <button class="tab active">Entrar</button>
+                </div>
+
+                <!-- Botões de login social -->
+                <button class="social-login apple"><img src="imagens/Apple.svg" alt="Apple"> Fazer login com a Apple</button>
+                <button class="social-login facebook"><img src="imagens/Faceboook.svg" alt="Facebook"> Fazer login com o Facebook</button>
+                <button class="social-login google"><img src="imagens/google.svg" alt="Google"> Fazer login com o Google</button>
+
+                <div class="divider">
+                    <span>OU</span>
+                </div>
+
+                <!-- Formulário de login manual -->
+                <form action="#">
+                    <div class="input-group">
+                        <label for="username">E-mail ou Nome de Usuário</label>
+                        <input type="text" id="username" placeholder="Digite seu e-mail ou nome de usuário">
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" placeholder="Digite sua senha">
+                        <a href="#" class="forgot-password">Esqueceu a senha?</a>
+                    </div>
+                    <button type="submit" class="btn-login">ENTRAR</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

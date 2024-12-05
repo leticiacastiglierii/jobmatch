@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JobMatch - Ajuda</title>
+  <link rel="stylesheet" href="contato.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@600&family=Montserrat:wght@400&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li class="nav-link"><a href="http://localhost:5500/perfil.html"><img src="imagens/perfil.svg" alt=""></a></li>
+        <li><a href="http://localhost:5500/empregos.html" class="nav-link"><img src="imagens/globo.svg" alt=""></a></li>
+        <li><img src="imagens/logo.svg" alt=""></a></li>
+        <li><a href="#" class="nav-link"><img src="imagens/mensagem.svg" alt=""></a></li>
+        <div class="dropdown">
+          <img class=" nav-link dropbtn " src="imagens/menu.svg" alt="">
+          <div class="dropdown-content">
+            <a href="">Notificação</a>
+            <a href="http://localhost:5500/configuracao.html">Configuração</a>
+            <a href="http://localhost:5500/suporte.html">Suporte</a>
+            <a href="http://localhost:5500/loginentrar.html">Sair</a>
+          </div>
+        </div>
+      </ul>
+    </nav>
+  </header>
+
+  <h1 class="titulo">Estamos aqui para ouvir você!</h1>
+  <section class="section-formulario">
+    <form class="formulario">
+      <div class="campos-direcao">
+        <label for="nomecompleto">Nome completo:</label>
+        <input type="text" placeholder="Ex: Luciana Afonso Junior" id="nomecompleto">
+        <label for="email">E-mail:</label>
+        <input type="text" placeholder="Ex: luciana.afonso@gmail.com" id="email">
+        <label for="telefone">Telefone:</label>
+        <input type="text" placeholder="ex: 55+ (17) 99555-5555" id="telefone">
+      </div>
+      <div class="campos-direcao">
+        <label for="assunto">Assunto:</label>
+        <select name="assunto" id="assunto">
+          <option value="valor1">Resolução de problemas</option>
+          <option value="valor2">Ouvidoria</option>
+          <option value="valor3">Denúncias</option>
+          <option value="valor4">Outros</option>
+        </select>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" placeholder="Digite sua mensagem" name="mensagem"></textarea>
+      </div>
+    </form>
+    <form class="form-anexar-arquivo" action="">
+      <input type="file" id="myFile" name="filename">
+    </form>
+    <div class="container-btn-bottom">
+      <a class="btn-voltar" href="http://localhost:5500/suporte.html">Voltar</a>
+      <a class="btn-enviar" href="http://localhost:5500/aviso.html">Enviar</a>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="imagens/Logo.png" alt="Logo Job Match">
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4>Sobre nós</h4>
+          <p><a href="...">Quem Somos</a></p>
+          <p><a href="...">Missões</a></p>
+          <p><a href="...">Valores</a></p>
+        </div>
+        <div>
+          <h4>Perguntas Frequentes</h4>
+          <p><a href="...">Há garantia de contratação?</a></p>
+          <p><a href="...">Quais são os planos pagos?</a></p>
+          <p><a href="...">Como devo organizar meu perfil?</a></p>
+        </div>
+        <div>
+          <h4>Fale Conosco</h4>
+          <p><a href="mailto:suporte@jobmatch.com">suporte@jobmatch.com</a></p>
+          <p>Telefone: <a href="tel:+5511999999999">(11) 99999-9999</a></p>
+          <p>Horário de Atendimento: Seg-Sex, 8h - 18h</p>
+        </div>
+        <div>
+          <h4>Redes Sociais</h4>
+          <div class="social-icons">
+            <a href="#"><img src="/imagens/facebook.svg" alt="Facebook" class="social-icon"></a>
+            <a href="#"><img src="/imagens/instagram.svg" alt="Instagram" class="social-icon"></a>
+            <a href="#"><img src="/imagens/linkedin.svg" alt="LinkedIn" class="social-icon"></a>
+          </div>
+        </div>
+      </div>
+      <p class="footer-bottom">Desenvolvido por Jobmatch - 2024 todos os direitos reservados ©</p>
+    </div>
+  </footer>
+</body>
+
+</html>

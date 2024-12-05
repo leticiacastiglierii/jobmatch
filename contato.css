@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #001846;
+  /* Dark blue background */
+  padding: 10px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-item {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.nav-link:hover img {
+  filter: brightness(0) saturate(100%) invert(75%) sepia(83%) saturate(1550%) hue-rotate(170deg) brightness(99%) contrast(95%);
+}
+
+.nav-title {
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown-content a {
+  color: #666666;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* sessão que está todo o formulario */
+.section-formulario {
+  background-color: #d9d9d9;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 48px;
+  border-radius: 25px;
+  margin-bottom: 120px;
+}
+
+.titulo {
+  text-align: center;
+  padding: 40px;
+  color: #333;
+  font-family:'Roboto';
+  font-weight: 600;
+  font-size: 40px;
+}
+
+/* aqui o display flex está presente para orientar as divs que estão os inputs a ficarem lado a lado */
+.formulario {
+  display: flex;
+  gap: 40px;
+}
+
+/* direcao que os campos irão ficar */
+.campos-direcao {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formulario input,
+select {
+  border: none;
+  padding: 12px 16px;
+  border-radius: 80px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+
+textarea {
+  border: none;
+  padding: 24px;
+  border-radius: 32px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  resize: none;
+}
+
+/*rodapé */
+/* Estilos gerais do rodapé */
+.footer {
+  background-color: #0a1f44;
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  /* Define uma largura máxima para o conteúdo */
+  justify-content: space-between;
+  /* Espaço entre o logotipo e as seções */
+  align-items: flex-start;
+  /* Alinha os itens ao topo */
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+  flex: 1 1 150px;
+}
+
+.footer-logo img {
+  width: 150px;
+}
+
+/* Títulos */
+.footer-links h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  /* Semi bold */
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+/* Links de texto e parágrafos */
+.footer-links p,
+.footer-links a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #d1d1d1;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.footer-links p,
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+/* Configurações das seções do rodapé */
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.footer-links div {
+  margin: 10px;
+  min-width: 150px;
+}
+
+.footer-bottom {
+  font-size: 12px;
+  color: #d1d1d1;
+  margin: 0 auto;
+  padding: 12px;
+  border-top: #ffffff 1px solid;
+  width: 100%;
+
+}
+
+/* Estilos para as redes sociais */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  /* Espaçamento entre os ícones */
+  margin-top: 10px;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+  /* Aumenta o ícone ao passar o mouse */
+}
+
+.form-anexar-arquivo {
+  padding: 40px;
+  text-align: center;
+}
+
+.container-btn-bottom {
+  border-top: 2px solid #00000041;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  justify-content: center;
+  gap: 40px;
+}
+
+.btn-enviar {
+  width: 125px;
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+  background-color: #183861;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.btn-voltar {
+  width: 125px;
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+  background-color: #fff;
+  color:  #183861;
+  border: 1px solid #183861;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+}
