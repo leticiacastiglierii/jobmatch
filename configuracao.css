@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    width: 100px;
 }
 
 body {
@@ -319,4 +318,7 @@ body {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+.logo {
+    width: 100px;
 }
