@@ -154,7 +154,7 @@ body {
     display: flex;
     justify-content: space-between;
     font-size: 12px;
-    color: white;
+    color: #001846;
 }
 
 /* Opportunities */
@@ -171,13 +171,13 @@ body {
 
 .group-header h2 {
     font-size: 18px;
-    color: white;
+    color: #001846;
 }
 
 .group-header a {
     font-size: 14px;
     text-decoration: none;
-    color: white;
+    color: #001846;
 }
 
 .opportunity-list {
